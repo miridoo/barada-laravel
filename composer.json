@@ -1,0 +1,27 @@
+{
+    "name": "barada/laravel",
+    "type": "project",
+    "description": "Barada helper for laravel",
+    "keywords": ["Laravel", "Barada"],
+    "homepage": "https://barada.miridoo.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mamadou DIARRA",
+            "email": "d.mamadou@miridoo.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Barada\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barada\\Laravel\\BaradaServiceProvider"
+            ]
+        }
+    },
+}
