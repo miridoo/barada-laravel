@@ -24,4 +24,9 @@
             ]
         }
     },
+    "require-dev": {
+        "illuminate/console": "^8.26",
+        "illuminate/database": "^8.27",
+        "illuminate/bus": "^8.27"
+    }
 }
